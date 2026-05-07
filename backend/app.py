@@ -42,5 +42,23 @@ def get_sessions():
     db.close()
     return jsonify(result)
 
+# GET LESSONS FOR A SESSION
+@app.route('/sessions/<int:session_id>/lessons', methods=['GET'])
+def get_lessons(session_id):
+    db = DBSession()
+    lessons = db.query(Lesson).filter_by(session_id=session_id).all()
+    result = [{"id": l.id, "order": l.order, "content": l.content} for l in lessons]
+    db.close()
+    return jsonify(result)
+
+# GET QUIZ FOR A SESSION
+@app.route('/sessions/<int:session_id>/quiz', methods=['GET'])
+def get_quiz(session_id):
+    db = DBSession()
+    quizzes = db.query(Quiz).filter_by(session_id=session_id).all()
+    result = [{"id": q.id, "question": q.question, "option_a": q.option_a, "option_b": q.option_b, "option_c": q.option_c, "option_d": q.option_d} for q in quizzes]
+    db.close()
+    return jsonify(result)
+    
 if __name__ == '__main__':
     app.run(debug=True)

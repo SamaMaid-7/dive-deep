@@ -1,9 +1,14 @@
 from flask import Flask, jsonify, request
+from flask_jwt_extended import JWTManager
+from auth import auth_bp
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from database import User, Category, Session, Lesson, Quiz, UserSessionHistory, SavedLesson, DailyReminder, Base
 
 app = Flask(__name__)
+app.config['JWT_SECRET_KEY'] = 'divedeep-secret-key-2024'
+jwt = JWTManager(app)
+app.register_blueprint(auth_bp)
 
 engine = create_engine('sqlite:///divedeep.db')
 DBSession = sessionmaker(bind=engine)
@@ -59,6 +64,6 @@ def get_quiz(session_id):
     result = [{"id": q.id, "question": q.question, "option_a": q.option_a, "option_b": q.option_b, "option_c": q.option_c, "option_d": q.option_d} for q in quizzes]
     db.close()
     return jsonify(result)
-    
+
 if __name__ == '__main__':
     app.run(debug=True)

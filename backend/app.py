@@ -1,6 +1,8 @@
 from flask import Flask, jsonify, request
 from flask_jwt_extended import JWTManager
 from auth import auth_bp
+from history import history_bp
+from saved import saved_bp
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from database import User, Category, Session, Lesson, Quiz, UserSessionHistory, SavedLesson, DailyReminder, Base
@@ -9,6 +11,8 @@ app = Flask(__name__)
 app.config['JWT_SECRET_KEY'] = 'divedeep-secret-key-2024'
 jwt = JWTManager(app)
 app.register_blueprint(auth_bp)
+app.register_blueprint(history_bp)
+app.register_blueprint(saved_bp)
 
 engine = create_engine('sqlite:///divedeep.db')
 DBSession = sessionmaker(bind=engine)

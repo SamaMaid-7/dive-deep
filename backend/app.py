@@ -3,6 +3,8 @@ from flask_jwt_extended import JWTManager
 from auth import auth_bp
 from history import history_bp
 from saved import saved_bp
+from reminder import reminder_bp
+from quiz import quiz_bp
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from database import User, Category, Session, Lesson, Quiz, UserSessionHistory, SavedLesson, DailyReminder, Base
@@ -13,6 +15,8 @@ jwt = JWTManager(app)
 app.register_blueprint(auth_bp)
 app.register_blueprint(history_bp)
 app.register_blueprint(saved_bp)
+app.register_blueprint(reminder_bp)
+app.register_blueprint(quiz_bp)
 
 engine = create_engine('sqlite:///divedeep.db')
 DBSession = sessionmaker(bind=engine)

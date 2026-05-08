@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 from flask_jwt_extended import JWTManager
 from auth import auth_bp
 from history import history_bp
@@ -10,6 +11,7 @@ from sqlalchemy import create_engine
 from database import User, Category, Session, Lesson, Quiz, UserSessionHistory, SavedLesson, DailyReminder, Base
 
 app = Flask(__name__)
+CORS(app)
 app.config['JWT_SECRET_KEY'] = 'divedeep-secret-key-2024'
 jwt = JWTManager(app)
 app.register_blueprint(auth_bp)
@@ -50,7 +52,11 @@ def add_category():
 @app.route('/sessions', methods=['GET'])
 def get_sessions():
     db = DBSession()
-    sessions = db.query(Session).all()
+    category_id = request.args.get('category_id')
+    if category_id:
+        sessions = db.query(Session).filter_by(category_id=int(category_id)).all()
+    else:
+        sessions = db.query(Session).all()
     result = [{"id": s.id, "title": s.title, "category_id": s.category_id} for s in sessions]
     db.close()
     return jsonify(result)

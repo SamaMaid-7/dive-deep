@@ -8,7 +8,7 @@ function Session() {
   const { categoryId } = useParams();
   const [session, setSession] = useState(null);
   const [loading, setLoading] = useState(true);
-  const { darkMode } = useContext(ThemeContext);
+  const { darkMode, setDarkMode } = useContext(ThemeContext);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -48,7 +48,9 @@ function Session() {
       <div className="header">
         <div className="menu-btn" onClick={() => navigate('/')}>←</div>
         <div className="logo">dive<span>deep</span></div>
-        <div className="theme-btn">{darkMode ? '☀️' : '🌙'}</div>
+        <div className="theme-btn" onClick={() => setDarkMode(!darkMode)}>
+          {darkMode ? '☀️' : '🌙'}
+        </div>
       </div>
 
       {/* SESSION CARD */}

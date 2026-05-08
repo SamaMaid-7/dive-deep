@@ -75,7 +75,15 @@ def get_lessons(session_id):
 def get_quiz(session_id):
     db = DBSession()
     quizzes = db.query(Quiz).filter_by(session_id=session_id).all()
-    result = [{"id": q.id, "question": q.question, "option_a": q.option_a, "option_b": q.option_b, "option_c": q.option_c, "option_d": q.option_d} for q in quizzes]
+    result = [{
+        "id": q.id,
+        "question": q.question,
+        "option_a": q.option_a,
+        "option_b": q.option_b,
+        "option_c": q.option_c,
+        "option_d": q.option_d,
+        "correct_option": q.correct_option
+    } for q in quizzes]
     db.close()
     return jsonify(result)
 

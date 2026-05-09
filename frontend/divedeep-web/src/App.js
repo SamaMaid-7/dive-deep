@@ -6,6 +6,8 @@ import Session from './pages/Session';
 import Lesson from './pages/Lesson';
 import Quiz from './pages/Quiz';
 import Result from './pages/Result';
+import Profile from './pages/Profile';
+import Search from './pages/Search';
 
 export const ThemeContext = React.createContext();
 
@@ -22,6 +24,8 @@ function App() {
             <Route path="/lesson/:sessionId/:lessonOrder" element={<Lesson />} />
             <Route path="/quiz/:sessionId" element={<Quiz />} />
             <Route path="/result/:sessionId" element={<Result />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/search" element={<Search />} />
           </Routes>
         </div>
       </Router>

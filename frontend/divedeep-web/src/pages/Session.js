@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ThemeContext } from '../App';
+import { saveActiveSession } from '../utils/storage';
 
 const API = 'http://127.0.0.1:5000';
 
@@ -53,6 +54,12 @@ function Session() {
         </div>
       </div>
 
+      <div className="top-actions">
+        <button className="btn-secondary full-width" onClick={() => navigate('/')}>
+          Home
+        </button>
+      </div>
+
       {/* SESSION CARD */}
       <div className="session-hero">
         <div className="session-tag">New Session</div>
@@ -82,7 +89,16 @@ function Session() {
       {/* START BUTTON */}
       <button
         className="btn-primary full-width"
-        onClick={() => navigate(`/lesson/${session.id}/1`)}
+        onClick={() => {
+          saveActiveSession({
+            sessionId: session.id,
+            categoryId: Number(categoryId),
+            sessionTitle: session.title,
+            route: `/lesson/${session.id}/1`,
+            progressText: 'Lesson 1'
+          });
+          navigate(`/lesson/${session.id}/1`);
+        }}
       >
         Start Session →
       </button>

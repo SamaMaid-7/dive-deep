@@ -1,6 +1,7 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { ThemeContext } from '../App';
+import { addLessonHistoryItem, clearActiveSession, getActiveSession } from '../utils/storage';
 
 function Result() {
   const { sessionId } = useParams();
@@ -9,6 +10,21 @@ function Result() {
   const { darkMode, setDarkMode } = useContext(ThemeContext);
 
   const result = location.state;
+
+  useEffect(() => {
+    if (!result) {
+      return;
+    }
+    const active = getActiveSession();
+    addLessonHistoryItem({
+      sessionId: Number(sessionId),
+      sessionTitle: active?.sessionTitle || `Session ${sessionId}`,
+      categoryName: active?.categoryName || 'General',
+      snippet: active?.sessionTitle || 'Completed quiz',
+      attendedAt: new Date().toISOString()
+    });
+    clearActiveSession();
+  }, [sessionId, result]);
 
   if (!result) {
     return (
@@ -52,6 +68,12 @@ function Result() {
         <div className="theme-btn" onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? '☀️' : '🌙'}
         </div>
+      </div>
+
+      <div className="top-actions">
+        <button className="btn-secondary full-width" onClick={() => navigate('/')}>
+          Home
+        </button>
       </div>
 
       <div className="result-card">

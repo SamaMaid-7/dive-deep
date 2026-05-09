@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useMemo, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { ThemeContext } from '../App';
+import { getActiveSession, saveActiveSession } from '../utils/storage';
 
 const API = 'http://127.0.0.1:5000';
 
@@ -25,6 +26,15 @@ function Quiz() {
       })
       .then((data) => {
         setQuestions(data);
+        const active = getActiveSession();
+        if (
+          active &&
+          Number(active.sessionId) === Number(sessionId) &&
+          typeof active.quizIndex === 'number'
+        ) {
+          setCurrentIndex(active.quizIndex);
+          setAnswers(active.quizAnswers || {});
+        }
         setLoading(false);
       })
       .catch((err) => {
@@ -47,6 +57,23 @@ function Quiz() {
       { key: 'd', label: currentQuestion.option_d }
     ];
   }, [currentQuestion]);
+
+  useEffect(() => {
+    if (!questions.length) {
+      return;
+    }
+    const active = getActiveSession();
+    saveActiveSession({
+      sessionId: Number(sessionId),
+      categoryId: active?.categoryId || null,
+      categoryName: active?.categoryName || '',
+      sessionTitle: active?.sessionTitle || `Session ${sessionId}`,
+      route: `/quiz/${sessionId}`,
+      progressText: `Quiz Q${currentIndex + 1}`,
+      quizIndex: currentIndex,
+      quizAnswers: answers
+    });
+  }, [sessionId, currentIndex, questions.length, answers]);
 
   const pickAnswer = (optionKey) => {
     if (!currentQuestion) {
@@ -155,6 +182,12 @@ function Quiz() {
         <div className="theme-btn" onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? '☀️' : '🌙'}
         </div>
+      </div>
+
+      <div className="top-actions">
+        <button className="btn-secondary full-width" onClick={() => navigate('/')}>
+          Home
+        </button>
       </div>
 
       <div className="progress-shell">

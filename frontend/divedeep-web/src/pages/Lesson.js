@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useMemo, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { ThemeContext } from '../App';
+import { getActiveSession, isLessonSaved, saveActiveSession, toggleSavedLesson } from '../utils/storage';
 
 const API = 'http://127.0.0.1:5000';
 
@@ -12,6 +13,7 @@ function Lesson() {
   const [lessons, setLessons] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
+  const [saved, setSaved] = useState(false);
 
   useEffect(() => {
     fetch(`${API}/sessions/${sessionId}/lessons`)
@@ -43,6 +45,22 @@ function Lesson() {
 
   const hasNext = currentIndex > -1 && currentIndex < lessons.length - 1;
 
+  useEffect(() => {
+    if (!currentLesson) {
+      return;
+    }
+    setSaved(isLessonSaved(currentLesson.id));
+    const active = getActiveSession();
+    saveActiveSession({
+      sessionId: Number(sessionId),
+      categoryId: active?.categoryId || null,
+      categoryName: active?.categoryName || '',
+      sessionTitle: active?.sessionTitle || `Session ${sessionId}`,
+      route: `/lesson/${sessionId}/${currentLesson.order}`,
+      progressText: `Lesson ${currentLesson.order}`
+    });
+  }, [sessionId, currentLesson]);
+
   const handleNext = () => {
     if (hasNext) {
       const nextLesson = lessons[currentIndex + 1];
@@ -50,6 +68,21 @@ function Lesson() {
       return;
     }
     navigate(`/quiz/${sessionId}`);
+  };
+
+  const handleSave = () => {
+    if (!currentLesson) {
+      return;
+    }
+    const active = getActiveSession();
+    const nowSaved = toggleSavedLesson({
+      lessonId: currentLesson.id,
+      sessionId: Number(sessionId),
+      lessonOrder: currentLesson.order,
+      lessonSnippet: currentLesson.content.slice(0, 60),
+      categoryName: active?.categoryName || 'General'
+    });
+    setSaved(nowSaved);
   };
 
   if (loading) {
@@ -95,6 +128,15 @@ function Lesson() {
         <div className="theme-btn" onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? '☀️' : '🌙'}
         </div>
+      </div>
+
+      <div className="top-actions two-col">
+        <button className="btn-secondary" onClick={() => navigate('/')}>
+          Home
+        </button>
+        <button className="btn-secondary" onClick={handleSave}>
+          {saved ? '★ Saved' : '☆ Save'}
+        </button>
       </div>
 
       <div className="progress-shell">

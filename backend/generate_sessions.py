@@ -105,6 +105,27 @@ def save_session(category_name, topic):
 
 # GENERATE SESSIONS FOR EACH CATEGORY
 topics = [
+    ("Finance", "Decoy Marketing Effect"),
+    ("Finance", "Compound Interest"),
+    ("Finance", "How Stock Markets Work"),
+    ("Psychology", "Confirmation Bias"),
+    ("Psychology", "The Dunning Kruger Effect"),
+    ("Psychology", "The Placebo Effect"),
+    ("Technology", "How Algorithms Work"),
+    ("Technology", "What is Machine Learning"),
+    ("Technology", "How the Internet Works"),
+    ("Health", "Benefits of Deep Sleep"),
+    ("Health", "How Stress Affects Your Body"),
+    ("Health", "Why Hydration Matters"),
+    ("History", "The Silk Road"),
+    ("History", "How World War 1 Started"),
+    ("History", "The Roman Empire Rise and Fall"),
+    ("Science", "How Black Holes Form"),
+    ("Science", "What is Quantum Physics"),
+    ("Science", "How Vaccines Work"),
+    ("Philosophy", "Stoicism Basics"),
+    ("Philosophy", "What is Existentialism"),
+    ("Philosophy", "The Ethics of Artificial Intelligence"),
     ("Beauty", "How Skincare Ingredients Work"),
     ("Beauty", "The Science Behind Hair Growth"),
     ("Beauty", "What is the Glass Skin Routine"),
@@ -113,18 +134,7 @@ topics = [
     ("Politics", "How United Nations Works"),
     ("Art", "How Color Theory Works"),
     ("Art", "The History of Street Art"),
-    ("Art", "What is the Bauhaus Movement"),
-    ("Science", "What is Quantum Physics"),
-    ("Science", "How Vaccines Work"),
-    ("History", "How World War 1 Started"),
-    ("History", "The Roman Empire Rise and Fall"),
-    ("Health", "How Stress Affects Your Body"),
-    ("Health", "Why Hydration Matters"),
-    ("Philosophy", "What is Existentialism"),
-    ("Philosophy", "The Ethics of Artificial Intelligence"),
-    ("Finance", "How Stock Markets Work"),
-    ("Technology", "How the Internet Works"),
-    ("Psychology", "The Placebo Effect"),
+    ("Art", "What is the Bauhaus Movement")
 
 ]
 

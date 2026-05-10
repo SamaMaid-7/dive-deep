@@ -12,7 +12,8 @@ from database import User, Category, Session, Lesson, Quiz, UserSessionHistory, 
 
 app = Flask(__name__)
 CORS(app)
-app.config['JWT_SECRET_KEY'] = 'divedeep-secret-key-2024'
+import os
+app.config['JWT_SECRET_KEY'] = os.environ.get('JWT_SECRET_KEY', 'divedeep-secret-key-2024')
 jwt = JWTManager(app)
 app.register_blueprint(auth_bp)
 app.register_blueprint(history_bp)

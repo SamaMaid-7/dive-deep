@@ -1,5 +1,7 @@
-node_modules/
-**/node_modules/
-.env
-**/venv/
+venv/
 *.db
+.env
+__pycache__/
+*.pyc
+node_modules/
+build/

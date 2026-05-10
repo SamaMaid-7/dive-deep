@@ -2,7 +2,7 @@ import os
 from flask import Blueprint, request, jsonify
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from database import Quiz, UserSessionHistory, SESSION_LOCAL
+from database import Quiz, UserSessionHistory
 from flask_jwt_extended import jwt_required, get_jwt_identity
 from datetime import datetime
 from groq import Groq

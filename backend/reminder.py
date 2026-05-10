@@ -8,7 +8,13 @@ from collections import Counter
 
 reminder_bp = Blueprint('reminder', __name__)
 
-engine = create_engine('sqlite:///divedeep.db')
+import os
+from dotenv import load_dotenv
+load_dotenv()
+DATABASE_URL = os.environ.get('DATABASE_URL', 'sqlite:///divedeep.db')
+if DATABASE_URL.startswith("postgres://"):
+    DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
+engine = create_engine(DATABASE_URL)
 DBSession = sessionmaker(bind=engine)
 
 # SET MANUAL REMINDER

@@ -1,15 +1,25 @@
+import os
 from flask import Blueprint, request, jsonify
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from database import Quiz, UserSessionHistory, Lesson
-import ollama
+from database import Quiz, UserSessionHistory, SESSION_LOCAL
 from flask_jwt_extended import jwt_required, get_jwt_identity
 from datetime import datetime
+from groq import Groq
+from dotenv import load_dotenv
+
+load_dotenv()
 
 quiz_bp = Blueprint('quiz', __name__)
 
-engine = create_engine('sqlite:///divedeep.db')
+DATABASE_URL = os.environ.get('DATABASE_URL', 'sqlite:///divedeep.db')
+if DATABASE_URL.startswith("postgres://"):
+    DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
+
+engine = create_engine(DATABASE_URL)
 DBSession = sessionmaker(bind=engine)
+
+groq_client = Groq(api_key=os.environ.get('GROQ_API_KEY'))
 
 # SUBMIT QUIZ ANSWERS
 @quiz_bp.route('/quiz/submit', methods=['POST'])
@@ -22,7 +32,6 @@ def submit_quiz():
     session_id = data['session_id']
     user_answers = data['answers']
 
-    # GET ALL QUIZ QUESTIONS FOR THIS SESSION
     questions = db.query(Quiz).filter_by(session_id=session_id).all()
 
     correct = 0
@@ -53,7 +62,6 @@ def submit_quiz():
     total = correct + wrong
     score_percentage = round((correct / total) * 100) if total > 0 else 0
 
-    # MARK SESSION AS COMPLETED IN HISTORY
     history = db.query(UserSessionHistory).filter_by(
         user_id=user_id,
         session_id=session_id
@@ -73,47 +81,15 @@ def submit_quiz():
     db.commit()
     db.close()
 
-    # GENERATE AI SUMMARY
-    wrong_questions = [r for r in result_details if not r['is_correct']]
-    summary = ""
-
-    if wrong_questions:
-        wrong_text = ""
-        for w in wrong_questions:
-            wrong_text += f"Question: {w['question']}\n"
-            wrong_text += f"Correct Answer: {w['correct_answer']}\n\n"
-
-        prompt = f"""
-        A student just completed a quiz session and got these questions wrong:
-        {wrong_text}
-        Write a very short, beginner friendly summary (max 5 sentences) that:
-        1. Identifies what concept the student is struggling with
-        2. Gives one simple real life example to explain it
-        3. Highlights the key thing they need to remember
-        Write in a warm encouraging tone. No bullet points. Just simple paragraph.
-        """
-
-        try:
-            response = ollama.chat(
-                model='llama3.2',
-                messages=[{'role': 'user', 'content': prompt}]
-            )
-            summary = response['message']['content']
-        except:
-            summary = "Great effort! Review the incorrect answers above to strengthen your understanding."
-    else:
-        summary = "Outstanding! You got everything correct. You have a strong understanding of this topic!"
-
     return jsonify({
         "total": total,
         "correct": correct,
         "wrong": wrong,
         "score_percentage": score_percentage,
-        "result_details": result_details,
-        "summary": summary
+        "result_details": result_details
     })
 
-# GET QUIZ QUESTIONS FOR A SESSION
+# GET QUIZ QUESTIONS
 @quiz_bp.route('/quiz/<int:session_id>', methods=['GET'])
 @jwt_required()
 def get_quiz(session_id):
@@ -130,8 +106,9 @@ def get_quiz(session_id):
             "option_d": q.option_d
         })
     db.close()
+    return jsonify(result)
 
-    # GENERATE AI SUMMARY
+# GENERATE AI SUMMARY USING GROQ
 @quiz_bp.route('/quiz/summary', methods=['POST'])
 def generate_summary():
     data = request.get_json()
@@ -158,14 +135,13 @@ def generate_summary():
     """
 
     try:
-        response = ollama.chat(
-            model='llama3.2',
+        response = groq_client.chat.completions.create(
+            model="llama3-8b-8192",
             messages=[{'role': 'user', 'content': prompt}]
         )
-        summary = response['message']['content']
-    except:
+        summary = response.choices[0].message.content
+    except Exception as e:
+        print(f"Groq error: {e}")
         summary = "Great effort! Review the incorrect answers above to strengthen your understanding."
 
     return jsonify({"summary": summary})
-
-    return jsonify(result)

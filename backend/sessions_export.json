@@ -1,0 +1,1122 @@
+[
+  {
+    "title": "Decoy Marketing Effect in Finance",
+    "category_name": "Finance",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "The Decoy Marketing Effect is a cognitive bias that occurs when consumers perceive products or services as being of higher quality or value due to the presence of a more desirable product option. This effect can be particularly damaging in finance, where consumers may invest in products with lower returns if they believe a better alternative exists on the market. As a result, businesses can use decoy marketing tactics to manipulate consumer decisions and increase sales. However, this can also lead to consumers missing out on better deals or options. To avoid falling victim to decoy marketing, it is essential to critically evaluate information and compare prices across multiple sources. By doing so, consumers can make more informed financial decisions."
+      },
+      {
+        "order": 2,
+        "content": "One common tactic used in decoy marketing is the 'price anchoring' technique, where a higher-priced product option is presented first to influence consumer perceptions of value. Another approach is to create a 'choice illusion,' where consumers believe they are making a better decision by choosing between two products, when in reality they may not be. To recognize these tactics, it is crucial for consumers to analyze data and evaluate the pricing strategies used by businesses. This can help identify potential decoy marketing techniques and enable more informed financial decisions."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the primary purpose of the Decoy Marketing Effect in finance?",
+        "option_a": "To increase sales",
+        "option_b": "To manipulate consumer perceptions of value",
+        "option_c": "To create a choice illusion",
+        "option_d": "To reduce prices",
+        "correct_option": "b"
+      },
+      {
+        "question": "Which of the following is an example of a decoy marketing tactic?",
+        "option_a": "Comparing product features and pricing",
+        "option_b": "Price anchoring",
+        "option_c": "Analyzing customer reviews",
+        "option_d": "Creating a loyalty program",
+        "correct_option": "b"
+      },
+      {
+        "question": "What can consumers do to avoid falling victim to decoy marketing?",
+        "option_a": "Only consider the lowest priced option",
+        "option_b": "Research and compare prices across multiple sources",
+        "option_c": "Trust online reviews",
+        "option_d": "Join a loyalty program",
+        "correct_option": "b"
+      }
+    ]
+  },
+  {
+    "title": "Compound Interest",
+    "category_name": "Finance",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Compound interest is the concept of earning interest on both the principal amount and any accrued interest over time. It's a powerful tool for growing your savings or investments. When you calculate compound interest, you multiply the principal by the interest rate, then add that result to the original principal. This process repeats with each new period, creating an exponential growth effect. For example, if you invest $1000 at 5% interest per year, earning 5% in the first year will yield $105. The next year, you'll earn 5% on $1055, not just $105. This results in a significant increase in your savings over time."
+      },
+      {
+        "order": 2,
+        "content": "The formula for calculating compound interest is A = P(1 + r)^n, where A is the future value of the investment, P is the principal amount, r is the annual interest rate, and n is the number of years. The key to compound interest is that it's calculated over time, which means even small increases in interest rates or time can lead to significant growth. Understanding compound interest can help you make informed decisions about your financial investments and savings strategies."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What does compound interest do to a principal amount over time?",
+        "option_a": "It decreases the principal amount",
+        "option_b": "It increases the principal amount exponentially",
+        "option_c": "It has no effect on the principal amount",
+        "option_d": "It only affects the first year of investment",
+        "correct_option": "b"
+      },
+      {
+        "question": "What is the formula for calculating compound interest?",
+        "option_a": "A = P(1 + r)",
+        "option_b": "A = P(1 + r)^n",
+        "option_c": "P = A / (1 + r)",
+        "option_d": "r = A / P",
+        "correct_option": "b"
+      },
+      {
+        "question": "What is the effect of small increases in interest rates on compound interest?",
+        "option_a": "They have no effect",
+        "option_b": "They decrease the impact of time",
+        "option_c": "They increase the growth rate significantly",
+        "option_d": "They only affect large investments",
+        "correct_option": "c"
+      }
+    ]
+  },
+  {
+    "title": "The Decoy Marketing Effect in Finance",
+    "category_name": "Finance",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "The decoy effect is a cognitive bias that occurs when consumers are presented with too many options, making it difficult to choose the best one. This can lead to decreased satisfaction and increased dissatisfaction. In finance, this effect can manifest in various ways, such as when investing in multiple stocks or bonds, which may seem like a good idea but ultimately leads to higher fees and lower returns. To avoid this bias, investors should focus on their financial goals and prioritize quality over quantity. By doing so, they can make more informed decisions and achieve better outcomes."
+      },
+      {
+        "order": 2,
+        "content": "Another way the decoy effect manifests in finance is through the use of 'good enough' options. For example, a financial advisor may recommend a mediocre investment product as an alternative to a higher-risk option, making the riskier option seem less appealing by comparison. This tactic can lead consumers to settle for subpar investments, missing out on better opportunities. To counter this effect, investors should be aware of their own biases and not fall prey to 'good enough' options."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the primary cause of the decoy effect in finance?",
+        "option_a": "Insufficient information",
+        "option_b": "Overwhelming number of options",
+        "option_c": "Emotional decision-making",
+        "option_d": "Lack of budgeting skills",
+        "correct_option": "b"
+      },
+      {
+        "question": "What is a common tactic used by financial advisors to exploit the decoy effect?",
+        "option_a": "Highlighting high-risk options as good investments",
+        "option_b": "Presenting multiple mediocre options",
+        "option_c": "Using 'good enough' options to mask subpar products",
+        "option_d": "Focusing on long-term investment strategies",
+        "correct_option": "c"
+      },
+      {
+        "question": "How can investors avoid falling prey to the decoy effect?",
+        "option_a": "By seeking advice from multiple financial advisors",
+        "option_b": "By prioritizing quality over quantity in their investments",
+        "option_c": "By relying on social media for investment advice",
+        "option_d": "By ignoring their own biases and emotions when making investment decisions",
+        "correct_option": "b"
+      }
+    ]
+  },
+  {
+    "title": "Compound Interest",
+    "category_name": "Finance",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Compound interest is the idea that with interest earned on both the principal amount and any accrued interest, the total amount grows exponentially over time. This concept allows individuals to save money more efficiently in a bank account or investment. For example, if you deposit $1000 into an account earning 5% annual compound interest, your balance after one year will be approximately $1050. As time passes, this initial $1000 grows and earns interest on itself, leading to much greater amounts."
+      },
+      {
+        "order": 2,
+        "content": "The formula for calculating compound interest is A = P(1 + r/n)^(nt), where A is the total amount of money accumulated after n years, including interest; P is the principal amount (the initial amount of money); r is the annual interest rate (in decimal form); n is the number of times that interest is compounded per year; and t is the time in years. By understanding compound interest, investors can make informed decisions about their investments and achieve long-term financial goals."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What percentage of your $1000 deposit would be added as interest after one year?",
+        "option_a": "2%",
+        "option_b": "5%",
+        "option_c": "10%",
+        "option_d": "15%",
+        "correct_option": "b"
+      },
+      {
+        "question": "If you deposit $500 into an account earning 3% annual compound interest, how much will your balance be after three years?",
+        "option_a": "$600",
+        "option_b": "$625",
+        "option_c": "$650",
+        "option_d": "$675",
+        "correct_option": "b"
+      },
+      {
+        "question": "What is the value of n in the compound interest formula when the interest is compounded daily?",
+        "option_a": "1",
+        "option_b": "4",
+        "option_c": "12",
+        "option_d": "52",
+        "correct_option": "d"
+      }
+    ]
+  },
+  {
+    "title": "How Stock Markets Work",
+    "category_name": "Finance",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "A stock market is a platform where companies raise capital by issuing shares of stock to the public, and investors can buy and sell those shares. The prices of stocks are determined by supply and demand in the market. Stocks represent ownership in a company, and their value can fluctuate based on various factors such as the company's financial performance, industry trends, and economic conditions. Understanding how stock markets work is essential for investors to make informed investment decisions."
+      },
+      {
+        "order": 2,
+        "content": "Stock exchanges are platforms where stocks are traded, and they facilitate the buying and selling of securities between investors. Stocks can be categorized into two types: common stocks and preferred stocks. Common stocks give shareholders voting rights, while preferred stocks do not offer voting rights but provide a higher claim on dividends and assets in case of bankruptcy. Investors can also buy options contracts, which grant them the right to buy or sell a stock at a specified price."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What determines the prices of stocks?",
+        "option_a": "Supply and demand",
+        "option_b": "Company's financial performance",
+        "option_c": "Industry trends",
+        "option_d": "Economic conditions",
+        "correct_option": "a"
+      },
+      {
+        "question": "What type of stock does not offer voting rights?",
+        "option_a": "Common stocks",
+        "option_b": "Preferred stocks",
+        "option_c": "Growth stocks",
+        "option_d": "Dividend stocks",
+        "correct_option": "b"
+      },
+      {
+        "question": "What is the primary purpose of a stock exchange?",
+        "option_a": "To facilitate buying and selling of securities between investors",
+        "option_b": "To provide investment advice to clients",
+        "option_c": "To manage investments on behalf of clients",
+        "option_d": "To monitor market trends",
+        "correct_option": "a"
+      }
+    ]
+  },
+  {
+    "title": "Understanding Confirmation Bias",
+    "category_name": "Psychology",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Confirmation bias is a cognitive error where individuals tend to favor information that confirms their pre-existing beliefs, while giving less consideration to contradictory evidence. This phenomenon can be observed in various aspects of life, including decision-making and social interactions. People may selectively seek out information that supports their views and ignore or dismiss opposing views. As a result, confirmation bias can lead to the reinforcement of existing biases and prejudices. Recognizing this bias is essential for making more informed decisions and fostering constructive dialogue."
+      },
+      {
+        "order": 2,
+        "content": "The concept of confirmation bias was first introduced by psychologist Peter Wason in 1960. He demonstrated that people tend to interpret ambiguous data in a way that confirms their expectations, rather than seeking out contradictory evidence. This can lead to the creation of 'mental models' \u2013 simplified representations of reality that are used to explain and predict behavior. Confirmation bias can also be fueled by cognitive heuristics, such as availability heuristic (judging likelihood based on vividness) or anchor effect (relying too heavily on initial information). Understanding these factors is crucial for mitigating the impact of confirmation bias."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What does confirmation bias refer to?",
+        "option_a": "The tendency to seek out contradictory evidence",
+        "option_b": "A cognitive error where individuals favor confirming information",
+        "option_c": "A mental model that explains and predicts behavior",
+        "option_d": "A heuristic for judging likelihood",
+        "correct_option": "b"
+      },
+      {
+        "question": "Who introduced the concept of confirmation bias?",
+        "option_a": "Daniel Kahneman",
+        "option_b": "Peter Wason",
+        "option_c": "Cognitive psychologist Jean Piaget",
+        "option_d": "Social psychologist Stanley Milgram",
+        "correct_option": "b"
+      },
+      {
+        "question": "What is the purpose of mental models?",
+        "option_a": "To seek out contradictory evidence",
+        "option_b": "To explain and predict behavior",
+        "option_c": "To mitigate cognitive biases",
+        "option_d": "To reinforce existing prejudices",
+        "correct_option": "b"
+      }
+    ]
+  },
+  {
+    "title": "Understanding the Dunning-Kruger Effect",
+    "category_name": "Psychology",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "The Dunning-Kruger Effect is a psychological phenomenon where individuals who are incompetent in a particular domain tend to overestimate their own abilities and performance. This effect is named after the psychologists David Dunning and Justin Kruger, who first described it in 1999. The effect can be seen when people who lack knowledge or skills in an area attempt to provide advice or solutions, often with disastrous results. It highlights the importance of self-awareness and recognizing one's own limitations."
+      },
+      {
+        "order": 2,
+        "content": "The Dunning-Kruger Effect is not limited to individuals but also affects groups and organizations. When a group of people lacks expertise in a particular field, they may develop unrealistic expectations about their abilities. This can lead to poor decision-making and ineffective problem-solving. On the other hand, when individuals are aware of their own limitations and seek feedback, they are more likely to improve their performance and become more effective."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the primary characteristic of the Dunning-Kruger Effect?",
+        "option_a": "Underestimating one's abilities",
+        "option_b": "Overestimating one's abilities",
+        "option_c": "Lack of knowledge",
+        "option_d": "Self-awareness",
+        "correct_option": "b"
+      },
+      {
+        "question": "Which psychologists first described the Dunning-Kruger Effect?",
+        "option_a": "David Dunning and Justin Kruger",
+        "option_b": "Albert Einstein and Stephen Hawking",
+        "option_c": "Marie Curie and Charles Darwin",
+        "option_d": "John Lennon and Paul McCartney",
+        "correct_option": "a"
+      },
+      {
+        "question": "What is the primary cause of poor decision-making in groups affected by the Dunning-Kruger Effect?",
+        "option_a": "Lack of expertise",
+        "option_b": "Insufficient feedback",
+        "option_c": "Poor communication",
+        "option_d": "Groupthink",
+        "correct_option": "d"
+      }
+    ]
+  },
+  {
+    "title": "The Placebo Effect in Psychology",
+    "category_name": "Psychology",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "The placebo effect refers to the phenomenon where a person experiences an improvement in their symptoms or condition after taking a treatment that has no actual therapeutic value. This occurs when the individual believes that the treatment is having a positive effect on their health, and as a result, they experience a psychological response that alleviates their symptoms. The placebo effect can be attributed to various factors, including the power of suggestion, expectation, and conditioning. Research has shown that the placebo effect can be significant in both physical and mental health conditions. In some cases, it may even surpass the effectiveness of actual treatments. Understanding the placebo effect is crucial for developing more effective treatment strategies in psychology."
+      },
+      {
+        "order": 2,
+        "content": "The placebo effect was first discovered by Scottish surgeon James Lind in the 18th century. He conducted an experiment where he divided patients with scurvy into different groups, some receiving a real medicine and others receiving a placebo. The results showed that the group receiving the placebo had significant improvements in their symptoms compared to those receiving actual treatment. Since then, numerous studies have replicated these findings and explored the mechanisms behind the placebo effect. Researchers have found that the brain's reward system is activated when an individual expects a positive outcome from a treatment, leading to improved mood, reduced anxiety, and even physical changes."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What does the term 'placebo effect' refer to?",
+        "option_a": "A type of therapy",
+        "option_b": "The phenomenon where an individual experiences improvement in symptoms after taking a treatment with no actual therapeutic value",
+        "option_c": "A type of medication",
+        "option_d": "A type of psychological condition",
+        "correct_option": "b"
+      },
+      {
+        "question": "Who is credited with discovering the placebo effect?",
+        "option_a": "Albert Einstein",
+        "option_b": "James Lind",
+        "option_c": "Sigmund Freud",
+        "option_d": "Charles Darwin",
+        "correct_option": "b"
+      },
+      {
+        "question": "What happens in the brain when an individual expects a positive outcome from a treatment?",
+        "option_a": "The release of hormones that reduce anxiety and stress",
+        "option_b": "The activation of the brain's reward system",
+        "option_c": "The reduction of inflammation in the body",
+        "option_d": "The increase in blood pressure",
+        "correct_option": "b"
+      }
+    ]
+  },
+  {
+    "title": "How Algorithms Work",
+    "category_name": "Technology",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Algorithms are sets of instructions that a computer follows to solve a problem or complete a task. They consist of a series of steps, called 'instructions' or 'commands', which the computer executes in sequence. These instructions can be thought of as recipes for solving complex problems, breaking them down into manageable parts and then combining those parts to produce a solution. In this lesson, we will explore how algorithms work, including types of algorithms, algorithmic complexity, and common algorithmic techniques."
+      },
+      {
+        "order": 2,
+        "content": "There are several key concepts to understanding how algorithms work: data structures, Big O notation, and time and space complexity. Data structures refer to the way that a computer organizes and stores its data. Big O notation is used to describe the performance of an algorithm, which determines how long it takes to run as the size of the input increases. Time complexity refers to how fast an algorithm runs, while space complexity refers to how much memory it uses. We will also discuss common algorithms such as sorting, searching, and graph traversal."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the primary function of an algorithm?",
+        "option_a": "To sort data",
+        "option_b": "To search for data",
+        "option_c": "To solve a problem or complete a task",
+        "option_d": "To store data",
+        "correct_option": "c"
+      },
+      {
+        "question": "What is Big O notation used for?",
+        "option_a": "To describe the performance of an algorithm",
+        "option_b": "To determine the space complexity of an algorithm",
+        "option_c": "To calculate the time complexity of an algorithm",
+        "option_d": "To analyze the data structure of an algorithm",
+        "correct_option": "a"
+      },
+      {
+        "question": "What is the difference between time complexity and space complexity?",
+        "option_a": "Time complexity refers to how fast an algorithm runs, while space complexity refers to how much memory it uses",
+        "option_b": "Space complexity refers to how fast an algorithm runs, while time complexity refers to how much memory it uses",
+        "option_c": "Time complexity refers to how much memory an algorithm uses, while space complexity refers to how fast an algorithm runs",
+        "option_d": "The difference between time and space complexity is not significant",
+        "correct_option": "a"
+      }
+    ]
+  },
+  {
+    "title": "How the Internet Works",
+    "category_name": "Technology",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "The internet is a global network of interconnected computers and servers. It allows devices to communicate with each other by sending and receiving data through the use of standardized communication protocols. The internet uses IP addresses to identify devices and route data between them. Data is transmitted using packet switching, where data is broken into small packets and routed independently to its destination. The packets are then reassembled at the receiving end."
+      },
+      {
+        "order": 2,
+        "content": "The backbone of the internet consists of undersea cables, fiber-optic cables, and satellite links that connect major networks. Internet Service Providers (ISPs) manage and maintain these connections, providing access to the internet for consumers and businesses. The Domain Name System (DNS) translates human-readable domain names into IP addresses, making it easier to navigate and find websites online. The HyperText Transfer Protocol (HTTP) is used to transmit data between web servers and clients."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the primary method of data transmission on the internet?",
+        "option_a": "Email",
+        "option_b": "Packet switching",
+        "option_c": "File transfer protocol",
+        "option_d": "HyperText Transfer Protocol (HTTP)",
+        "correct_option": "b"
+      },
+      {
+        "question": "What system translates domain names into IP addresses?",
+        "option_a": "Domain Name System (DNS)",
+        "option_b": "Internet Service Provider (ISP)",
+        "option_c": "HyperText Transfer Protocol (HTTP)",
+        "option_d": "File transfer protocol",
+        "correct_option": "a"
+      },
+      {
+        "question": "What is the primary purpose of IP addresses?",
+        "option_a": "To provide encryption for data",
+        "option_b": "To identify devices and route data between them",
+        "option_c": "To manage internet connections",
+        "option_d": "To cache frequently accessed websites",
+        "correct_option": "b"
+      }
+    ]
+  },
+  {
+    "title": "Benefits of Deep Sleep",
+    "category_name": "Health",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Deep sleep, also known as slow-wave sleep, is the stage of sleep where brain waves slow down, and the body repairs and regenerates tissues. During deep sleep, the immune system produces cytokines that help fight off infections. This stage of sleep is essential for physical growth and development in children. Deep sleep also helps to clear waste from the brain, which can reduce the risk of neurodegenerative diseases such as Alzheimer's and Parkinson's. Getting enough deep sleep can improve cognitive function, including memory and concentration."
+      },
+      {
+        "order": 2,
+        "content": "Deep sleep has been shown to have a positive impact on mental health, reducing symptoms of anxiety and depression. It also helps to regulate emotions, leading to better mood management. Additionally, deep sleep can improve insulin sensitivity, reducing the risk of developing type 2 diabetes. Furthermore, studies have found that individuals who get more deep sleep tend to live longer and have a lower risk of mortality."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the primary function of deep sleep?",
+        "option_a": "To process and consolidate memories",
+        "option_b": "To repair and regenerate tissues",
+        "option_c": "To regulate emotions",
+        "option_d": "To clear waste from the brain",
+        "correct_option": "b"
+      },
+      {
+        "question": "Which of the following is a benefit of deep sleep for mental health?",
+        "option_a": "Reduced symptoms of anxiety and depression",
+        "option_b": "Improved cognitive function only",
+        "option_c": "Increased risk of neurodegenerative diseases",
+        "option_d": "No impact on mental health",
+        "correct_option": "a"
+      },
+      {
+        "question": "What is a potential consequence of getting enough deep sleep?",
+        "option_a": "Reduced lifespan",
+        "option_b": "Improved insulin sensitivity and lower risk of type 2 diabetes",
+        "option_c": "Increased risk of mortality",
+        "option_d": "No impact on overall health",
+        "correct_option": "b"
+      }
+    ]
+  },
+  {
+    "title": "How Stress Affects Your Body",
+    "category_name": "Health",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Stress can have a significant impact on your physical health. When you experience stress, your body's 'fight or flight' response is triggered, releasing hormones such as adrenaline and cortisol into your system. These hormones prepare your body to respond to the threat by increasing heart rate, blood pressure, and respiration. Chronic stress can lead to a range of health problems, including digestive issues, headaches, and sleep disturbances."
+      },
+      {
+        "order": 2,
+        "content": "Stress can also affect your immune system, making you more susceptible to illnesses such as the common cold and flu. Additionally, chronic stress has been linked to an increased risk of heart disease, stroke, and even mental health conditions like depression and anxiety. It's essential to manage stress effectively to maintain overall physical and mental well-being."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is released into your system when you experience stress?",
+        "option_a": "Adrenaline",
+        "option_b": "Cortisol",
+        "option_c": "Insulin",
+        "option_d": "Thyroid hormones",
+        "correct_option": "b"
+      },
+      {
+        "question": "What can chronic stress lead to in terms of health problems?",
+        "option_a": "Digestive issues and headaches",
+        "option_b": "Sleep disturbances and mental health conditions",
+        "option_c": "All of the above",
+        "option_d": "None of the above",
+        "correct_option": "c"
+      },
+      {
+        "question": "What is the name of the hormone that prepares your body to respond to a threat?",
+        "option_a": "Cortisol",
+        "option_b": "Adrenaline",
+        "option_c": "Thyroid hormones",
+        "option_d": "Insulin",
+        "correct_option": "b"
+      }
+    ]
+  },
+  {
+    "title": "Why Hydration Matters",
+    "category_name": "Health",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Proper hydration is essential for maintaining physical health. Even mild dehydration can cause fatigue, headaches, and difficulty concentrating. Drinking enough water helps to regulate body temperature, transport nutrients and oxygen to cells, and remove waste products. Inadequate hydration has been linked to a range of chronic diseases, including kidney stones, urinary tract infections, and some types of cancer. Staying hydrated can also boost energy levels, improve mood, and support weight loss."
+      },
+      {
+        "order": 2,
+        "content": "The amount of water we drink varies depending on factors like age, sex, weight, activity level, and climate. Generally, adults need to drink at least eight 8-ounce glasses of water per day, but this can be adjusted based on individual needs. Drinking too little water can lead to dehydration, while drinking too much water can cause electrolyte imbalances and other complications. Additionally, certain foods and beverages, such as coffee, juice, and soda, can contribute to our daily fluid intake."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the minimum recommended amount of water intake per day for adults?",
+        "option_a": "6-8 glasses",
+        "option_b": "8-10 glasses",
+        "option_c": "10-12 glasses",
+        "option_d": "12+ glasses",
+        "correct_option": "b"
+      },
+      {
+        "question": "What is the main purpose of drinking enough water?",
+        "option_a": "To add calories to our diet",
+        "option_b": "To flush out toxins and waste products from the body",
+        "option_c": "To boost energy levels and support weight loss",
+        "option_d": "All of the above",
+        "correct_option": "d"
+      },
+      {
+        "question": "Which of the following can contribute to dehydration?",
+        "option_a": "Fresh fruit juice",
+        "option_b": "Coffee",
+        "option_c": "Soda",
+        "option_d": "Water",
+        "correct_option": "c"
+      }
+    ]
+  },
+  {
+    "title": "How World War 1 Started",
+    "category_name": "History",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "World War I started in 1914 following the assassination of Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, by Gavrilo Princip, a Serbian nationalist. This event triggered a chain reaction of alliances and diplomatic crises among European powers. The complex system of alliances, including the Triple Entente and the Central Powers, ultimately led to the outbreak of war. Austria-Hungary declared war on Serbia, followed by declarations of war from Germany on Russia and France, and from Italy on Austria-Hungary."
+      },
+      {
+        "order": 2,
+        "content": "The assassination was used as a pretext for many countries to pursue their own interests and expand their territories. Germany's desire to challenge British dominance at sea led to the creation of the German Navy, while France sought to regain its lost territory in Alsace-Lorraine. Russia's decision to mobilize its military against Austria-Hungary prompted Germany to declare war on Russia. The complex web of alliances and rivalries ultimately led to a global conflict that would last for four years."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Who was the heir to the Austro-Hungarian throne assassinated by Gavrilo Princip?",
+        "option_a": "Franz Joseph",
+        "option_b": "Archduke Franz Ferdinand",
+        "option_c": "Emperor Charles I",
+        "option_d": "King Ferdinand II of Bulgaria",
+        "correct_option": "b"
+      },
+      {
+        "question": "Which country declared war on Russia in 1914?",
+        "option_a": "Germany",
+        "option_b": "France",
+        "option_c": "Austria-Hungary",
+        "option_d": "Italy",
+        "correct_option": "a"
+      },
+      {
+        "question": "What was the main reason for Germany's desire to challenge British dominance at sea?",
+        "option_a": "To gain control of the Baltic Sea",
+        "option_b": "To challenge British dominance at sea",
+        "option_c": "To expand its colonial empire",
+        "option_d": "To eliminate France from the war",
+        "correct_option": "b"
+      }
+    ]
+  },
+  {
+    "title": "The Rise and Fall of the Roman Empire",
+    "category_name": "History",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "The Roman Empire began its rise around 27 BC with the death of Augustus, marking the end of the Roman Republic. Augustus established the Principate, a system in which the Emperor held supreme power but was also responsible for the welfare of the people. The empire expanded rapidly under the rule of Trajan and Hadrian, conquering vast territories in Europe, North Africa, and Asia. However, internal problems such as corruption, inflation, and civil wars began to weaken the empire from within."
+      },
+      {
+        "order": 2,
+        "content": "The Roman Empire reached its peak during the Pax Romana (Roman Peace), a period of relative peace and stability that lasted for over two centuries. However, this was followed by a series of military defeats and internal power struggles, including the civil war between Nero and the Senate. The empire eventually fell to barbarian tribes in 476 AD with the deposition of Romulus Augustus."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What event marked the end of the Roman Republic?",
+        "option_a": "The death of Julius Caesar",
+        "option_b": "The death of Augustus",
+        "option_c": "The Battle of Actium",
+        "option_d": "The Sack of Rome",
+        "correct_option": "b"
+      },
+      {
+        "question": "What system did Augustus establish in 27 BC?",
+        "option_a": "The Dictatorship",
+        "option_b": "The Principate",
+        "option_c": "The Republic",
+        "option_d": "The Monarchy",
+        "correct_option": "b"
+      },
+      {
+        "question": "What event marked the fall of the Roman Empire?",
+        "option_a": "The Battle of Cannae",
+        "option_b": "The Sack of Rome",
+        "option_c": "The deposition of Romulus Augustus",
+        "option_d": "The construction of Hadrian's Wall",
+        "correct_option": "c"
+      }
+    ]
+  },
+  {
+    "title": "How Black Holes Form",
+    "category_name": "Science",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "A black hole is formed when a massive star runs out of fuel and dies. The core of the star collapses under its own gravity, causing a massive amount of matter to be compressed into an incredibly small space. This creates an intense gravitational field that warps the fabric of spacetime around it. The point of no return, called the event horizon, marks the boundary beyond which anything that enters cannot escape. Black holes come in various sizes, ranging from small stellar-mass black holes formed from star collapses to supermassive ones found at the centers of galaxies."
+      },
+      {
+        "order": 2,
+        "content": "The laws of physics as we know them start to break down near a black hole due to its extreme gravitational field and strong curvature of spacetime. The intense gravity also causes strange effects such as frame-dragging, where spacetime is rotated along with the black hole's rotation axis. Black holes are invisible because they absorb all the light that hits them, making them difficult to detect directly. However, their presence can be inferred by observing the effects on nearby stars and gas."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What event marks the boundary beyond which anything that enters a black hole cannot escape?",
+        "option_a": "Event Horizon",
+        "option_b": "Singularity",
+        "option_c": "Black Hole Formation",
+        "option_d": "Gravitational Field",
+        "correct_option": "a"
+      },
+      {
+        "question": "What happens to the light that hits a black hole?",
+        "option_a": "It is reflected back",
+        "option_b": "It is absorbed by the black hole",
+        "option_c": "It is redirected around it",
+        "option_d": "It escapes through the event horizon",
+        "correct_option": "b"
+      },
+      {
+        "question": "What phenomenon causes spacetime to be rotated along with a rotating black hole?",
+        "option_a": "Frame-dragging",
+        "option_b": "Gravitational lensing",
+        "option_c": "Black hole formation",
+        "option_d": "Event horizon",
+        "correct_option": "a"
+      }
+    ]
+  },
+  {
+    "title": "Introduction to Quantum Physics",
+    "category_name": "Science",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Quantum physics is a branch of physics that studies the behavior of matter and energy at an atomic and subatomic level. It explores the interactions between particles and their properties, such as wave-particle duality and entanglement. The field has led to numerous breakthroughs in our understanding of the universe, including the development of quantum mechanics and its applications in technology. Key principles include wave function collapse and the uncertainty principle."
+      },
+      {
+        "order": 2,
+        "content": "Quantum physics is characterized by the use of mathematical models and theories to describe the behavior of particles at the atomic and subatomic level. It introduces concepts such as superposition, entanglement, and spin. The theory also explores the concept of wave-particle duality, where particles can exhibit both wave-like and particle-like behavior. This fundamental understanding of quantum physics has far-reaching implications for various fields, including chemistry, materials science, and electronics."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the primary focus of quantum physics?",
+        "option_a": "Particle interactions",
+        "option_b": "Energy transfer",
+        "option_c": "Wave behavior",
+        "option_d": "Atomic structure",
+        "correct_option": "c"
+      },
+      {
+        "question": "Which principle states that certain properties, like position and momentum, cannot be precisely known at the same time?",
+        "option_a": "Uncertainty Principle",
+        "option_b": "Wave Function Collapse",
+        "option_c": "Superposition",
+        "option_d": "Entanglement",
+        "correct_option": "a"
+      },
+      {
+        "question": "What is wave-particle duality in quantum physics?",
+        "option_a": "The behavior of particles as waves",
+        "option_b": "The behavior of waves as particles",
+        "option_c": "Both particle and wave-like behavior",
+        "option_d": "Neither particle nor wave-like behavior",
+        "correct_option": "c"
+      }
+    ]
+  },
+  {
+    "title": "How Vaccines Work",
+    "category_name": "Science",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "A vaccine is a medicine that helps your body fight against germs like viruses and bacteria. When you get vaccinated, a small, harmless piece of the germ or a weakened form of the germ is introduced to your body. Your immune system recognizes this foreign substance as harmful and builds up antibodies to attack it. These antibodies are special proteins that can recognize and destroy the germ if it enters your body again in the future. By building immunity through vaccination, you reduce the risk of getting sick with diseases like measles, mumps, and whooping cough."
+      },
+      {
+        "order": 2,
+        "content": "There are several types of vaccines, including inactivated vaccines, live attenuated vaccines, conjugate vaccines, and mRNA vaccines. Inactivated vaccines contain killed germs that can't cause disease but still stimulate an immune response. Live attenuated vaccines contain weakened germs that can cause mild symptoms but still trigger a strong immune response. Conjugate vaccines combine a weakened germ with a carrier protein to improve immunity in people who are too young or have weakened immune systems to respond well to other types of vaccines. mRNA vaccines use genetic material from the virus to instruct cells to produce a specific protein, which triggers an immune response."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the primary purpose of a vaccine?",
+        "option_a": "To cure diseases",
+        "option_b": "To reduce the risk of getting sick",
+        "option_c": "To treat symptoms",
+        "option_d": "To prevent disease spread",
+        "correct_option": "b"
+      },
+      {
+        "question": "What happens when you get vaccinated?",
+        "option_a": "Your immune system is weakened",
+        "option_b": "A small, harmless piece of the germ or a weakened form of the germ is introduced to your body",
+        "option_c": "You are cured of the disease",
+        "option_d": "The disease spreads",
+        "correct_option": "b"
+      },
+      {
+        "question": "What type of vaccine contains killed germs?",
+        "option_a": "Inactivated vaccines",
+        "option_b": "Live attenuated vaccines",
+        "option_c": "Conjugate vaccines",
+        "option_d": "mRNA vaccines",
+        "correct_option": "a"
+      }
+    ]
+  },
+  {
+    "title": "Stoicism Basics",
+    "category_name": "Philosophy",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Stoicism is a school of thought that originated in ancient Greece and emphasizes the pursuit of virtue and self-control. Its core principles are based on reason, individualism, and indifference to external events. Stoics believe in accepting things outside their control with equanimity and focusing on things within their control. They also emphasize the importance of living in accordance with nature and cultivating inner strength. By embracing these principles, Stoics aim to achieve a state of inner peace and wisdom."
+      },
+      {
+        "order": 2,
+        "content": "The Stoic philosophy is centered around two key concepts: negative visualization and the dichotomy of control. Negative visualization involves imagining oneself in adverse situations to build resilience and prepare for the worst-case scenario. The dichotomy of control refers to distinguishing between things that can be controlled (e.g., one's thoughts and actions) and those that cannot be controlled (e.g., external events). By acknowledging what can and cannot be controlled, Stoics strive to live in accordance with reason and virtue."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the primary goal of Stoicism?",
+        "option_a": "To seek happiness",
+        "option_b": "To achieve inner peace and wisdom",
+        "option_c": "To acquire wealth and power",
+        "option_d": "To follow societal norms",
+        "correct_option": "b"
+      },
+      {
+        "question": "What is the concept of 'negative visualization' in Stoicism?",
+        "option_a": "The practice of visualizing oneself in a serene environment",
+        "option_b": "The act of imagining oneself in adverse situations to build resilience",
+        "option_c": "The process of focusing on one's goals and desires",
+        "option_d": "The method of ignoring negative thoughts and emotions",
+        "correct_option": "b"
+      },
+      {
+        "question": "What is the 'dichotomy of control' in Stoicism?",
+        "option_a": "The idea that everything can be controlled",
+        "option_b": "The distinction between things that can and cannot be controlled",
+        "option_c": "The concept of living in accordance with reason and virtue",
+        "option_d": "The practice of accepting things outside one's control",
+        "correct_option": "b"
+      }
+    ]
+  },
+  {
+    "title": "Introduction to Existentialism",
+    "category_name": "Philosophy",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Existentialism is a philosophical movement that emphasizes individual existence and choice. It posits that humans are fundamentally free, yet this freedom brings with it a sense of responsibility and anxiety. Key figures such as Jean-Paul Sartre and Martin Heidegger contributed to the development of existentialist thought. Existentialism rejects traditional notions of meaning and truth, instead emphasizing human subjectivity and experience. This philosophical stance can be seen in everyday life, where individuals must navigate uncertainty and ambiguity."
+      },
+      {
+        "order": 2,
+        "content": "At its core, existentialism is concerned with questions of existence, freedom, and the human condition. It seeks to understand how humans create their own meaning and purpose in life, rather than relying on external sources such as religion or society. Existentialists argue that individuals must take ownership of their choices and actions, and accept responsibility for the consequences that follow. This approach can be both empowering and overwhelming, as it requires individuals to confront the unknown and make decisions without the guidance of external authorities."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is a fundamental tenet of existentialism?",
+        "option_a": "That humans are born with predetermined meaning",
+        "option_b": "That human freedom brings inherent responsibility",
+        "option_c": "That individuals can achieve objective truth through reason alone",
+        "option_d": "That the universe has no inherent meaning or purpose",
+        "correct_option": "d"
+      },
+      {
+        "question": "Who is a key figure associated with existentialist thought?",
+        "option_a": "Immanuel Kant",
+        "option_b": "Jean-Paul Sartre",
+        "option_c": "Martin Heidegger",
+        "option_d": "Ren\u00e9 Descartes",
+        "correct_option": "c"
+      },
+      {
+        "question": "What is a primary challenge faced by existentialists?",
+        "option_a": "The need to conform to societal norms",
+        "option_b": "The struggle for objective truth",
+        "option_c": "The burden of individual freedom and responsibility",
+        "option_d": "The search for external meaning or purpose",
+        "correct_option": "c"
+      }
+    ]
+  },
+  {
+    "title": "The Ethics of Artificial Intelligence in Philosophy",
+    "category_name": "Philosophy",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Introduction to AI ethics: The field of AI ethics explores the moral implications of creating intelligent machines. Philosophers like John Searle and Nick Bostrom have contributed to this discussion, questioning whether conscious machines can be truly moral agents. As AI systems become increasingly sophisticated, they begin to make decisions that affect human lives, raising questions about accountability, bias, and fairness."
+      },
+      {
+        "order": 2,
+        "content": "Utilitarianism vs Deontology: Two philosophical frameworks are often debated in the context of AI ethics: utilitarianism and deontology. Utilitarians argue that AI systems should prioritize overall happiness and well-being, while deontologists believe that AI must adhere to moral rules and principles regardless of consequences. This debate highlights the need for a nuanced understanding of human values in AI decision-making."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Is it morally justifiable to create an AI system that can cause harm if it means achieving a greater good?",
+        "option_a": "Yes, as long as the goal is positive",
+        "option_b": "No, because AI systems are not moral agents",
+        "option_c": "It depends on the context and specific circumstances",
+        "option_d": "Both 'a' and 'c' are correct",
+        "correct_option": "d"
+      },
+      {
+        "question": "Does the development of autonomous vehicles pose a risk to human life and dignity?",
+        "option_a": "No, as long as safety features are implemented",
+        "option_b": "Yes, because AI systems may prioritize efficiency over human values",
+        "option_c": "It is a neutral issue that does not affect human dignity",
+        "option_d": "Both 'a' and 'b' are correct",
+        "correct_option": "d"
+      },
+      {
+        "question": "Can we create an AI system that is morally equivalent to humans?",
+        "option_a": "No, because AI systems lack consciousness and emotions",
+        "option_b": "Yes, if we define moral equivalence in terms of goals and values",
+        "option_c": "It's a complex issue that requires further research",
+        "option_d": "Both 'a' and 'b' are correct",
+        "correct_option": "d"
+      }
+    ]
+  },
+  {
+    "title": "The Science Behind Hair Growth",
+    "category_name": "Beauty",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Hair growth occurs due to a process called the anagen phase, which is the active growth phase of hair follicles. During this phase, hair grows approximately 1 centimeter per month. The rate of hair growth is influenced by hormones, genetics, and overall health. The hair follicle goes through three phases: anagen (growth), catagen (transitional), and telogen (resting). Understanding the science behind hair growth can help individuals make informed decisions about their hair care routine. This knowledge can also lead to more effective treatments for hair loss or thinning."
+      },
+      {
+        "order": 2,
+        "content": "The scalp has a unique ecosystem that supports hair growth. The skin's sebaceous glands produce sebum, which helps moisturize and protect the hair shaft. The presence of blood vessels in the scalp provides oxygen and nutrients essential for hair growth. Hormonal imbalances can disrupt this delicate balance, leading to hair loss or thinning. A healthy diet rich in vitamins and minerals, particularly those that promote hair growth such as biotin and vitamin E, can also support hair health."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the primary phase of hair growth?",
+        "option_a": "Anagen",
+        "option_b": "Catagen",
+        "option_c": "Telogen",
+        "option_d": "Resting",
+        "correct_option": "a"
+      },
+      {
+        "question": "Which nutrient deficiency can lead to hair loss?",
+        "option_a": "Iron deficiency",
+        "option_b": "Biotin deficiency",
+        "option_c": "Vitamin D deficiency",
+        "option_d": "All of the above",
+        "correct_option": "d"
+      },
+      {
+        "question": "What is the main function of the sebaceous glands in the scalp?",
+        "option_a": "To produce hormones",
+        "option_b": "To moisturize and protect the hair shaft",
+        "option_c": "To regulate body temperature",
+        "option_d": "To filter blood",
+        "correct_option": "b"
+      }
+    ]
+  },
+  {
+    "title": "How Democracy Works in Politics",
+    "category_name": "Politics",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "A democracy is a system of government where power is held by the people. It is based on the principle that all citizens have an equal say in the decision-making process. In a democratic country, citizens elect representatives to make decisions on their behalf. The elected officials are accountable to the people and must follow certain rules and guidelines to ensure fairness and transparency."
+      },
+      {
+        "order": 2,
+        "content": "There are several key components of a functioning democracy, including free and fair elections, an independent judiciary, and a free press. These institutions help to protect individual rights and prevent abuses of power. Additionally, democratic societies prioritize the protection of minority rights and promote social justice."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the primary source of power in a democracy?",
+        "option_a": "The government",
+        "option_b": "The people",
+        "option_c": "The judiciary",
+        "option_d": "The press",
+        "correct_option": "b"
+      },
+      {
+        "question": "How do citizens participate in the decision-making process in a democracy?",
+        "option_a": "Through elections only",
+        "option_b": "Through representative government",
+        "option_c": "Through direct participation",
+        "option_d": "Through civil society organizations",
+        "correct_option": "b"
+      },
+      {
+        "question": "What is the role of an independent judiciary in a democracy?",
+        "option_a": "To enforce laws and maintain order",
+        "option_b": "To interpret laws and protect individual rights",
+        "option_c": "To regulate social behavior",
+        "option_d": "To promote economic growth",
+        "correct_option": "b"
+      }
+    ]
+  },
+  {
+    "title": "What is Geopolitics?",
+    "category_name": "Politics",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Geopolitics is the study of the interactions between politics and geography, analyzing how geographical factors influence international relations and global politics. It involves understanding the complex relationships between countries, territories, resources, and borders. Geopolitical analysis can inform policy decisions in areas like diplomacy, trade, security, and development. By considering geographical contexts, policymakers can better navigate complex conflicts and make more informed decisions."
+      },
+      {
+        "order": 2,
+        "content": "Geopolitics encompasses a wide range of topics, including border disputes, resource extraction, climate change, and economic globalization. It requires an interdisciplinary approach, combining insights from geography, politics, economics, and other fields to understand the interconnectedness of global issues. Effective geopolitics involves considering the perspectives of multiple stakeholders, including governments, corporations, civil society organizations, and indigenous communities. By doing so, policymakers can develop more nuanced solutions that address local needs while promoting regional stability."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the primary focus of geopolitics?",
+        "option_a": "Economic relations between countries",
+        "option_b": "The study of political interactions and geographical contexts",
+        "option_c": "Environmental impacts on global governance",
+        "option_d": "International trade agreements",
+        "correct_option": "b"
+      },
+      {
+        "question": "Which of the following is a key aspect of geopolitics?",
+        "option_a": "Climate change mitigation strategies",
+        "option_b": "Border disputes and territorial claims",
+        "option_c": "Global economic trends",
+        "option_d": "Human rights advocacy",
+        "correct_option": "b"
+      },
+      {
+        "question": "What is the goal of effective geopolitics?",
+        "option_a": "Maximizing national interests at all costs",
+        "option_b": "Promoting regional stability and addressing local needs",
+        "option_c": "Reducing global inequality through redistribution",
+        "option_d": "Implementing strict environmental regulations",
+        "correct_option": "b"
+      }
+    ]
+  },
+  {
+    "title": "How United Nations Works",
+    "category_name": "Politics",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "The United Nations (UN) is an international organization that brings together almost every country in the world to promote peace, security, and cooperation. The UN was established in 1945 with the signing of the UN Charter by 51 founding member states. It has since grown to include 193 member states. The main organs of the UN include the General Assembly, the Security Council, the Economic and Social Council (ECOSOC), and the Trusteeship Council. These organs work together to address global challenges such as poverty, inequality, climate change, and conflict resolution."
+      },
+      {
+        "order": 2,
+        "content": "The UN has six specialized agencies that provide technical assistance and support to its member states on specific issues. The main functions of the UN include maintaining international peace and security, promoting sustainable development, protecting human rights, delivering humanitarian aid, and upholding international law. The UN also provides a platform for countries to resolve their differences peacefully through diplomacy and dialogue."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What year was the United Nations founded?",
+        "option_a": "1940",
+        "option_b": "1945",
+        "option_c": "1950",
+        "option_d": "1960",
+        "correct_option": "b"
+      },
+      {
+        "question": "How many member states are currently part of the United Nations?",
+        "option_a": "100",
+        "option_b": "150",
+        "option_c": "193",
+        "option_d": "200",
+        "correct_option": "c"
+      },
+      {
+        "question": "What is the main purpose of the UN General Assembly?",
+        "option_a": "To discuss international law",
+        "option_b": "To promote sustainable development",
+        "option_c": "To provide a platform for countries to resolve their differences peacefully",
+        "option_d": "To maintain international peace and security",
+        "correct_option": "d"
+      }
+    ]
+  },
+  {
+    "title": "Understanding Color Theory in Art",
+    "category_name": "Art",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Color theory is a set of principles used to create harmonious color combinations. The color wheel, which is the basis for color theory, consists of primary colors (red, yellow, and blue), secondary colors (orange, green, and purple) created by mixing two primary colors. Tertiary colors are created by mixing a primary color with a secondary color. Color harmony refers to the way colors work together to create a visually appealing effect. Warm colors (red, orange, yellow) evoke emotions such as warmth and energy, while cool colors (blue, green, purple) evoke feelings of calmness and serenity."
+      },
+      {
+        "order": 2,
+        "content": "The 60-30-10 rule is a guideline for creating color harmony in art. The rule suggests that 60% of the artwork should be a dominant color, 30% a secondary color, and 10% an accent color. This ratio can vary depending on personal preference and the specific artistic style. Color contrast refers to the way colors appear in relation to each other. High contrast involves using light and dark values to create visual interest, while low contrast involves using similar shades of color."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "What is the primary color that cannot be created by mixing other colors?",
+        "option_a": "Blue",
+        "option_b": "Red",
+        "option_c": "Yellow",
+        "option_d": "Green",
+        "correct_option": "a"
+      },
+      {
+        "question": "Which of the following is an example of a warm color?",
+        "option_a": "Blue",
+        "option_b": "Red",
+        "option_c": "Purple",
+        "option_d": "Orange",
+        "correct_option": "b"
+      },
+      {
+        "question": "What is the ratio suggested for creating color harmony in art?",
+        "option_a": "40-30-30",
+        "option_b": "60-30-10",
+        "option_c": "50-20-30",
+        "option_d": "70-20-10",
+        "correct_option": "b"
+      }
+    ]
+  },
+  {
+    "title": "The Evolution of Street Art: A Journey Through Time",
+    "category_name": "Art",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "Street art has its roots in ancient civilizations, where murals and graffiti adorned temple walls. The term 'street art' as we know it today emerged in the 1970s and 80s in cities like New York, London, and Berlin. During this time, artists began to use public spaces as a medium for self-expression and social commentary. This marked a shift away from traditional galleries and towards more raw and immersive forms of art. Street artists like Taki 183 and Cornbread continued to push boundaries with their bold stencils and graffiti."
+      },
+      {
+        "order": 2,
+        "content": "The 1980s saw the rise of the 'tagging' movement, where artists began signing their names in public spaces as a form of claiming territory. Banksy and Shepard Fairey emerged during this era, bringing street art to a wider audience. The 1990s and 2000s brought a new wave of street artists, such as Jean-Michel Basquiat's 'SAMO' project, which blurred the lines between art and vandalism. Today, street art is recognized globally, with many cities incorporating it into their urban landscapes."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Who is often credited with popularizing the term 'street art' in the 1970s?",
+        "option_a": "Banksy",
+        "option_b": "Shepard Fairey",
+        "option_c": "Taki 183",
+        "option_d": "Jean-Michel Basquiat",
+        "correct_option": "c"
+      },
+      {
+        "question": "What movement emerged in the 1980s, characterized by artists signing their names in public spaces?",
+        "option_a": "Stencils",
+        "option_b": "Tagging",
+        "option_c": "Graffiti",
+        "option_d": "Street Murals",
+        "correct_option": "b"
+      },
+      {
+        "question": "Which artist's 'SAMO' project is often cited as a precursor to modern street art?",
+        "option_a": "Jean-Michel Basquiat",
+        "option_b": "Banksy",
+        "option_c": "Shepard Fairey",
+        "option_d": "Taki 183",
+        "correct_option": "a"
+      }
+    ]
+  },
+  {
+    "title": "The Bauhaus Movement",
+    "category_name": "Art",
+    "lessons": [
+      {
+        "order": 1,
+        "content": "The Bauhaus movement was a revolutionary art school in Germany that emerged in the early 20th century. Founded in 1919, it aimed to combine fine arts and crafts with technical expertise and social reform. The movement emphasized functional design, simplicity, and mass production. Key figures like Walter Gropius, L\u00e1szl\u00f3 Moholy-Nagy, and Marcel Breuer made significant contributions to modern art and architecture."
+      },
+      {
+        "order": 2,
+        "content": "Bauhaus artists sought to break away from traditional aesthetic rules and create a new language of form and function. Their work often featured clean lines, minimal ornamentation, and an emphasis on the machine age. Notable works include the Weissenhof Estate in Stuttgart and the Dessau Bauhaus Building, which served as the movement's headquarters. Bauhaus philosophy extended beyond art to influence design, architecture, and social reform."
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Who founded the Bauhaus movement?",
+        "option_a": "Walter Gropius",
+        "option_b": "L\u00e1szl\u00f3 Moholy-Nagy",
+        "option_c": "Marcel Breuer",
+        "option_d": "Kazimir Malevich",
+        "correct_option": "a"
+      },
+      {
+        "question": "What was a key goal of the Bauhaus movement?",
+        "option_a": "To create ornate and decorative art",
+        "option_b": "To promote individualism in art",
+        "option_c": "To combine fine arts with technical expertise",
+        "option_d": "To focus solely on architecture",
+        "correct_option": "c"
+      },
+      {
+        "question": "What was notable about the Bauhaus movement's design aesthetic?",
+        "option_a": "It featured intricate patterns and ornaments",
+        "option_b": "It emphasized bold colors and textures",
+        "option_c": "It combined functional design with minimal ornamentation",
+        "option_d": "It focused solely on abstract art",
+        "correct_option": "c"
+      }
+    ]
+  }
+]

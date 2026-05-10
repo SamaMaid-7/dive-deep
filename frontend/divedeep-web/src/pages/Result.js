@@ -1,7 +1,9 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { ThemeContext } from '../App';
 import { addLessonHistoryItem, clearActiveSession, getActiveSession } from '../utils/storage';
+
+const API = 'http://127.0.0.1:5000';
 
 function Result() {
   const { sessionId } = useParams();
@@ -10,11 +12,12 @@ function Result() {
   const { darkMode, setDarkMode } = useContext(ThemeContext);
 
   const result = location.state;
+  const [summary, setSummary] = useState('');
+  const [summaryLoading, setSummaryLoading] = useState(false);
 
   useEffect(() => {
-    if (!result) {
-      return;
-    }
+    if (!result) return;
+
     const active = getActiveSession();
     addLessonHistoryItem({
       sessionId: Number(sessionId),
@@ -24,7 +27,34 @@ function Result() {
       attendedAt: new Date().toISOString()
     });
     clearActiveSession();
+
+    // FETCH AI SUMMARY
+    fetchSummary();
   }, [sessionId, result]);
+
+  const fetchSummary = async () => {
+    setSummaryLoading(true);
+    try {
+      const token = localStorage.getItem('token');
+      const response = await fetch(`${API}/quiz/summary`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`
+        },
+        body: JSON.stringify({
+          session_id: Number(sessionId),
+          result_details: result.result_details
+        })
+      });
+      const data = await response.json();
+      setSummary(data.summary);
+    } catch (err) {
+      setSummary('Great effort! Review the incorrect answers above to strengthen your understanding.');
+    } finally {
+      setSummaryLoading(false);
+    }
+  };
 
   if (!result) {
     return (
@@ -50,21 +80,16 @@ function Result() {
   };
 
   const resolveOptionText = (detail, optionKey) => {
-    if (!optionKey) {
-      return 'Not answered';
-    }
+    if (!optionKey) return 'Not answered';
     return detail[`option_${optionKey}`] || 'Unknown option';
   };
 
   return (
     <>
+      {/* HEADER */}
       <div className="header">
-        <div className="menu-btn" onClick={() => navigate('/')}>
-          ←
-        </div>
-        <div className="logo">
-          dive<span>deep</span>
-        </div>
+        <div className="menu-btn" onClick={() => navigate('/')}>←</div>
+        <div className="logo">dive<span>deep</span></div>
         <div className="theme-btn" onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? '☀️' : '🌙'}
         </div>
@@ -76,6 +101,7 @@ function Result() {
         </button>
       </div>
 
+      {/* RESULT CARD */}
       <div className="result-card">
         <div className="session-tag">Result</div>
         <h1 className="session-hero-title">Great effort!</h1>
@@ -104,6 +130,23 @@ function Result() {
         </div>
       </div>
 
+      {/* AI SUMMARY CARD */}
+      <div className="summary-card">
+        <div className="summary-header">
+          <span className="summary-icon">🧠</span>
+          <span className="summary-title">Your Learning Summary</span>
+        </div>
+        {summaryLoading ? (
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <div className="loader" style={{ width: '20px', height: '20px' }}></div>
+            <p className="summary-text">Analysing your answers...</p>
+          </div>
+        ) : (
+          <p className="summary-text">{summary}</p>
+        )}
+      </div>
+
+      {/* FULL REVIEW */}
       <div className="review-section">
         <div className="section-header">
           <span className="section-title">Full Review</span>
@@ -119,14 +162,17 @@ function Result() {
               <p className={`review-answer ${detail.is_correct ? 'correct' : 'wrong'}`}>
                 Your answer: {resolveOptionText(detail, detail.your_answer)}
               </p>
-              <p className="review-correct">
-                Correct answer: {resolveOptionText(detail, detail.correct_answer)}
-              </p>
+              {!detail.is_correct && (
+                <p className="review-correct">
+                  Correct answer: {resolveOptionText(detail, detail.correct_answer)}
+                </p>
+              )}
             </div>
           ))}
         </div>
       </div>
 
+      {/* ACTIONS */}
       <div className="quiz-actions">
         <button className="btn-secondary" onClick={() => navigate(`/quiz/${sessionId}`)}>
           Retry Quiz

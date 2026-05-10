@@ -1,5 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Space+Mono:wght@400;700&display=swap');
 
+/* AI SUMMARY CARD */
+.summary-card {
+  background: var(--accent-soft);
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+  padding: 24px;
+  margin-bottom: 24px;
+  animation: fadeSlideUp 0.5s ease both;
+}
+
+.summary-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.summary-icon {
+  font-size: 22px;
+}
+
+.summary-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.summary-text {
+  font-size: 14px;
+  color: var(--text-sub);
+  line-height: 1.7;
+  font-weight: 600;
+}
+
+/* ANSWER CARDS */
+.wrong-answers {
+  margin-bottom: 24px;
+  animation: fadeSlideUp 0.6s ease both;
+}
+
+.answer-card {
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 12px;
+  border: 1.5px solid transparent;
+  box-shadow: var(--shadow);
+}
+
+.answer-card.correct {
+  border-color: rgba(10, 191, 143, 0.3);
+}
+
+.answer-card.wrong {
+  border-color: rgba(255, 80, 80, 0.3);
+}
+
+.answer-question {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.answer-row {
+  display: flex;
+  gap: 8px;
+  font-size: 13px;
+  margin-top: 6px;
+  align-items: flex-start;
+}
+
+.answer-label {
+  color: var(--text-sub);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.correct-text {
+  color: #0abf8f;
+  font-weight: 700;
+}
+
+.wrong-text {
+  color: #ff5050;
+  font-weight: 700;
+}
+
 /* CSS VARIABLES */
 .light {
   --bg: #f0f4f8;

@@ -1,7 +1,8 @@
 from flask import Blueprint, request, jsonify
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from database import Quiz, UserSessionHistory
+from database import Quiz, UserSessionHistory, Lesson
+import ollama
 from flask_jwt_extended import jwt_required, get_jwt_identity
 from datetime import datetime
 
@@ -72,12 +73,44 @@ def submit_quiz():
     db.commit()
     db.close()
 
+    # GENERATE AI SUMMARY
+    wrong_questions = [r for r in result_details if not r['is_correct']]
+    summary = ""
+
+    if wrong_questions:
+        wrong_text = ""
+        for w in wrong_questions:
+            wrong_text += f"Question: {w['question']}\n"
+            wrong_text += f"Correct Answer: {w['correct_answer']}\n\n"
+
+        prompt = f"""
+        A student just completed a quiz session and got these questions wrong:
+        {wrong_text}
+        Write a very short, beginner friendly summary (max 5 sentences) that:
+        1. Identifies what concept the student is struggling with
+        2. Gives one simple real life example to explain it
+        3. Highlights the key thing they need to remember
+        Write in a warm encouraging tone. No bullet points. Just simple paragraph.
+        """
+
+        try:
+            response = ollama.chat(
+                model='llama3.2',
+                messages=[{'role': 'user', 'content': prompt}]
+            )
+            summary = response['message']['content']
+        except:
+            summary = "Great effort! Review the incorrect answers above to strengthen your understanding."
+    else:
+        summary = "Outstanding! You got everything correct. You have a strong understanding of this topic!"
+
     return jsonify({
         "total": total,
         "correct": correct,
         "wrong": wrong,
         "score_percentage": score_percentage,
-        "result_details": result_details
+        "result_details": result_details,
+        "summary": summary
     })
 
 # GET QUIZ QUESTIONS FOR A SESSION
@@ -97,4 +130,42 @@ def get_quiz(session_id):
             "option_d": q.option_d
         })
     db.close()
+
+    # GENERATE AI SUMMARY
+@quiz_bp.route('/quiz/summary', methods=['POST'])
+def generate_summary():
+    data = request.get_json()
+    result_details = data.get('result_details', [])
+
+    wrong_questions = [r for r in result_details if not r['is_correct']]
+
+    if not wrong_questions:
+        return jsonify({"summary": "Outstanding! You got everything correct. You have a strong understanding of this topic!"})
+
+    wrong_text = ""
+    for w in wrong_questions:
+        wrong_text += f"Question: {w['question']}\n"
+        wrong_text += f"Correct Answer: {w['correct_answer']}\n\n"
+
+    prompt = f"""
+    A student just completed a quiz and got these questions wrong:
+    {wrong_text}
+    Write a very short beginner friendly summary (max 5 sentences) that:
+    1. Identifies what concept the student is struggling with
+    2. Gives one simple real life example to explain it
+    3. Highlights the key thing they need to remember
+    Write in a warm encouraging tone. No bullet points. Just simple paragraph.
+    """
+
+    try:
+        response = ollama.chat(
+            model='llama3.2',
+            messages=[{'role': 'user', 'content': prompt}]
+        )
+        summary = response['message']['content']
+    except:
+        summary = "Great effort! Review the incorrect answers above to strengthen your understanding."
+
+    return jsonify({"summary": summary})
+
     return jsonify(result)

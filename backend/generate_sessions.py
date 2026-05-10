@@ -105,16 +105,27 @@ def save_session(category_name, topic):
 
 # GENERATE SESSIONS FOR EACH CATEGORY
 topics = [
-    ("Finance", "Decoy Marketing Effect"),
-    ("Finance", "Compound Interest"),
-    ("Psychology", "Confirmation Bias"),
-    ("Psychology", "The Dunning Kruger Effect"),
-    ("Technology", "How Algorithms Work"),
-    ("Technology", "What is Machine Learning"),
-    ("Health", "Benefits of Deep Sleep"),
-    ("History", "The Silk Road"),
-    ("Science", "How Black Holes Form"),
-    ("Philosophy", "Stoicism Basics")
+    ("Beauty", "How Skincare Ingredients Work"),
+    ("Beauty", "The Science Behind Hair Growth"),
+    ("Beauty", "What is the Glass Skin Routine"),
+    ("Politics", "How Democracy Works"),
+    ("Politics", "What is Geopolitics"),
+    ("Politics", "How United Nations Works"),
+    ("Art", "How Color Theory Works"),
+    ("Art", "The History of Street Art"),
+    ("Art", "What is the Bauhaus Movement"),
+    ("Science", "What is Quantum Physics"),
+    ("Science", "How Vaccines Work"),
+    ("History", "How World War 1 Started"),
+    ("History", "The Roman Empire Rise and Fall"),
+    ("Health", "How Stress Affects Your Body"),
+    ("Health", "Why Hydration Matters"),
+    ("Philosophy", "What is Existentialism"),
+    ("Philosophy", "The Ethics of Artificial Intelligence"),
+    ("Finance", "How Stock Markets Work"),
+    ("Technology", "How the Internet Works"),
+    ("Psychology", "The Placebo Effect"),
+
 ]
 
 for category, topic in topics:
